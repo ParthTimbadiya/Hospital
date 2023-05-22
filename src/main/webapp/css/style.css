@@ -1,0 +1,127 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+SC:wght@300;400;500;600;700&family=Creepster&family=Dancing+Script:wght@400;500;600;700&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Lobster&family=Ms+Madi&family=Nunito+Sans&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.car_img {
+	height: 92vh;
+}
+
+h1{
+	color: #008000;
+	font-family: 'Vollkorn', serif;
+}
+
+.main_text {
+	color: black;
+	font-family: 'Vollkorn', serif;
+	font-size: 20px;
+}
+
+.carousel-caption {
+	position: relative;
+	left: 0;
+	bottom: 400px;
+}
+
+.car_sm_text1 {
+	color: black;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Vollkorn', serif;
+	border: 2px solid #198754;
+	padding: 15px;
+	margin: 0 10px;
+	background: white;
+}
+
+.car_sm_text2 {
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'Vollkorn', serif;
+	border: 2px solid white;
+	padding: 15px;
+	margin: 10px;
+	background: #198754;
+	
+}
+.car_sm_text1:hover {
+	color: white;
+	background: #198754;
+	border: 2px solid white;
+	transition-duration: 1s;
+}
+.car_sm_text2:hover {
+	color: black;
+	background: white;
+	border: 2px solid #198754;
+	transition-duration: 1s;
+}
+
+.content_two {
+	box-shadow: 3px 3px 10px gray;
+	padding: 20px;
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Vollkorn', serif;
+	font-size: 18px;
+}
+
+.card_content {
+	font-family: 'Vollkorn', serif;
+	font-size: 18px;
+	margin: 20px;
+}
+
+h2 {
+	font-family: 'Vollkorn', serif;
+	text-align: center;
+	color: #008000;
+}
+
+.card {
+	text-align: center;
+	font-family: 'Vollkorn', serif;
+	border: none;
+	box-shadow: 3px 3px 10px gray;
+}
+
+footer {
+	background: #198754;
+	margin: 10px 0;
+}
+
+.footer_text {
+	text-align: center;
+	padding: 10px;
+	font-family: 'Vollkorn', serif;
+	color: white;
+}
+
+/* Doctor page */
+
+.doctor_form{
+	box-shadow: 2px 2px 8px gray;
+	padding: 20px;
+	font-family: 'Vollkorn', serif;
+}
+textarea{
+	resize: none;
+}
+
+/* User page */
+
+.clink{
+	text-decoration: none;
+	
+}
+
+
+
+
